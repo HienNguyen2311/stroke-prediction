@@ -51,29 +51,29 @@ Key points:
 
 1. Methodology:
 
-*Random Forest algorithm to identify important risk factors
-*Logistic Regression to determine effect sizes of risk factors
-*MICE imputation for handling missing data
+* Random Forest algorithm to identify important risk factors
+* Logistic Regression to determine effect sizes of risk factors
+* MICE imputation for handling missing data
 
 2. Key findings:
 
-*Significant risk factors include high blood pressure, high cholesterol, limited work ability, diabetes, age (especially over 70), and creatinine levels.
-*Physical activities like walking, bicycling, and moderate recreational activities are associated with lower stroke risk.
-*Education level and race show some correlation with stroke risk.
+* Significant risk factors include high blood pressure, high cholesterol, limited work ability, diabetes, age (especially over 70), and creatinine levels.
+* Physical activities like walking, bicycling, and moderate recreational activities are associated with lower stroke risk.
+* Education level and race show some correlation with stroke risk.
 
 3. Ethical considerations:
 
-*Potential sampling biases due to self-reported diagnoses
-*Imbalanced representation of certain demographic groups
-*Privacy concerns with sensitive health data
+* Potential sampling biases due to self-reported diagnoses
+* Imbalanced representation of certain demographic groups
+* Privacy concerns with sensitive health data
 
 4. Limitations:
 
-*Model performance shows high sensitivity but low specificity
-*Dataset may not be representative of populations outside the US
+* Model performance shows high sensitivity but low specificity
+* Dataset may not be representative of populations outside the US
 
 5. Future work:
 
-*Collect more balanced data, especially for underrepresented groups
-*Adapt the model for use in other countries (e.g., New Zealand)
-*Implement fairness metrics to monitor potential biases
+* Collect more balanced data, especially for underrepresented groups
+* Adapt the model for use in other countries (e.g., New Zealand)
+* Implement fairness metrics to monitor potential biases
