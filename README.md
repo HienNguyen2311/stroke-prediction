@@ -37,7 +37,19 @@ National Health and Nutrition Examination Survey (NHANES) 2013-2018 data files: 
 
 Python 3, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Plotly Dash
 
-## Visualizations
+## Samples Visualizations
+
+Categorical predictors' values count
+
+![dashboard1](https://github.com/user-attachments/assets/437c1802-c263-41ef-8764-0d64bd995230)
+
+Numerous predictors' values count
+
+![dashboard2](https://github.com/user-attachments/assets/0b037526-b5fc-4a31-b2f5-8864070cfa70)
+
+Predictors relationship
+
+![dashboard3](https://github.com/user-attachments/assets/bdaf9829-afa1-46ae-b5bd-158e6b49cdf5)
 
 ## License
 
