@@ -20,8 +20,31 @@ This project aims to identify the important risk factors for stroke using data f
 
 1. Run the Jupyter notebooks and Python file in the following order:
 - `project_data_preparation.ipynb`
+    * Imports libraries and defines functions to merge data frames
+    * Creates data frames for different years (2017-2018, 2015-2016, 2013-2014)
+    * Merges data frames from different years
+    * Checks and removes duplicate rows
+    * Explores data structure and handles missing values
+    * Saves the cleaned dataset as `data_MCQ160F_eda.csv`
+    * Uses Random Forest classifier to identify important risk factors
+    * Fits the model and obtains feature importance scores
+
 - `project-main-analysis.ipynb` 
+    * Loads the cleaned dataset
+    * Performs EDA (VIF, correlation analysis, distribution analysis)
+    * Focuses on selected features from previous step
+    * Explores feature interactions
+    * Splits data into training and testing sets
+    * Applies data preprocessing (encoding, scaling, imputation)
+    * Performs logistic regression to determine effect sizes
+    * Trains the model and obtains regression results
+    * Exports results as `results.csv`
+    * Applies threshold-moving techniques and evaluates model performance
+    
 - `project-dashboard.py`
+    * Includes visualizations (histograms, scatter plots, stacked bar charts)
+    * Provides an interactive table of logistic regression results
+    * Allows exploration of relationships between features and stroke risk
 
 2. Launch the interactive dashboard:
 - Open a web browser and go to `http://127.0.0.1:4567/` to view the dashboard.
